@@ -13,6 +13,15 @@
 	}
 
 	// métodos de manipulación del DOM
+	$('.nav-left').on('click', evt => {
+		evt.preventDefault()
+
+		indice = (indice == 0) ? 0 : indice++
+
+		if (indice < pages.length) {
+			$('.nav-right').addClass('disabled')
+		}
+	})
 
 	addPage()
 
