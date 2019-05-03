@@ -16,7 +16,7 @@
 	$('.nav-left').on('click', evt => {
 		evt.preventDefault()
 
-		indice = (indice == 0) ? 0 : indice++
+		indice--
 
 		if (indice < pages.length) {
 			$('.nav-right').removeClass('disabled')
@@ -32,7 +32,7 @@
 	$('.nav-right').on('click', evt => {
 		evt.preventDefault()
 
-		indice = (indice == 0) ? 0 : indice++
+		indice++
 
 		if (indice > 0) {
 			$('.nav-left').removeClass('disabled')
