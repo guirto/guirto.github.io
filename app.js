@@ -1,4 +1,4 @@
-($ => {
+(function($) {
 	var pages = [
 	"Era un día normal en la cárcel. Todo lo normal que puede ser un día en un sitio así. Estábamos animados porque hoy algo cambiaba nuestra rutina. Unos amables señores venían a visitar nuestras celdas con los chicos de mantenimiento para valorar unas reformas."
 	],
@@ -13,4 +13,4 @@
 	addPage()
 
 
-} (jQuery)
+} (jQuery))
