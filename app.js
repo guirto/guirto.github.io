@@ -13,4 +13,4 @@
 	addPage()
 
 
-} (jQuery))
+} (jQuery)
