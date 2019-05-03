@@ -5,3 +5,7 @@ body {
 .blog .container .row h1 {
 	font-family: 'Montserrat', sans-serif;
 }
+
+#main {
+	min-height: 240px;
+}
