@@ -11,7 +11,7 @@
 		"Tras una mirada de aprobaci&oacute;n, el 'jefe' me se&ntilde;al&oacute; un rinc&oacute;n de la enfermer&iacute;a donde el personal se sol&iacute;a reunir durante sus horas de servicio. Por la noche estar&iacute;a desocupado, y estaba lo suficientemente alejado para poder hablar tranquilamente.",
 		"Aquella noche me cost&oacute; quedarme dormido, pero cuando lo hice, ca&iacute; en un profundo sue&ntilde;o. Me despert&eacute; alarmado, pensando que se habr&iacute;an fugado sin mi. Al volver la vista, pude ver a mi grupo sentados en la mesa, esper&aacute;ndome.",
 		"El 'jefe' presid&iacute;a la mesa, y todos los dem&aacute;s le miraban con atenci&oacute;n mientras hablaba. Hab&iacute;a papeles con garabatos por todos lados, con esquemas y bocetos de estructuras y edificios.",
-		"<em>&mdash; Excelente. Ya est&aacute;s aqu&iacute; &mdash;</em> coment&oacute; el 'jefe' al verme <em>&mdash;. Por favor, toma asiento. Tenemos poco tiempo. Me queda disponible un Elfo Arquero y un Mago de las Islas Orientales. &iquest;Qu&eacute; prefieres?</em>"
+		"<em>&mdash; Excelente. Ya est&aacute;s aqu&iacute; &mdash;</em> coment&oacute; el 'jefe' al verme <em>&mdash;. Por favor, toma asiento. Tenemos poco tiempo. Me queda disponible un Elfo Arquero y un Mago de las Islas Orientales. &iquest;Qu&eacute; prefieres?</em><p style=\"font-size:1.2em; text-align:center\"><em>Fin</em></p>"
 
 	],
 	indice = 0
@@ -48,8 +48,6 @@
 		if (++indice == pages.length) {
 			$('.nav-right').addClass('disabled')
 			indice = pages.length - 1
-
-			$('#main').append('<p style="font-size:1.2em; text-align:center"><em>Fin</em></p>')
 		}
 
 		addPage()
