@@ -19,8 +19,30 @@
 		indice = (indice == 0) ? 0 : indice++
 
 		if (indice < pages.length) {
+			$('.nav-right').removeClass('disabled')
+		}
+
+		if (indice == 0) {
+			$('.nav-left').addClass('disabled')
+		}
+
+		return false
+	})
+
+	$('.nav-right').on('click', evt => {
+		evt.preventDefault()
+
+		indice = (indice == 0) ? 0 : indice++
+
+		if (indice > 0) {
+			$('.nav-left').removeClass('disabled')
+		}
+
+		if (indice == pages.length) {
 			$('.nav-right').addClass('disabled')
 		}
+
+		return false
 	})
 
 	addPage()
