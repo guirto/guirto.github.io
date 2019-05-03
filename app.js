@@ -49,7 +49,7 @@
 			$('.nav-right').addClass('disabled')
 			indice = pages.length - 1
 
-			$('#main').append('<p style="font-size:1.2em"><strong><em>Fin</em></strong></p>')
+			$('#main').append('<p style="font-size:1.2em; text-align:center"><em>Fin</em></p>')
 		}
 
 		addPage()
